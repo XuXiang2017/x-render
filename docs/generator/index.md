@@ -30,6 +30,10 @@ const defaultValue = {
   },
 };
 
+const canDelete = () => {
+  return false;
+};
+
 const Demo = () => {
   return (
     <div style={{ height: '80vh' }}>
